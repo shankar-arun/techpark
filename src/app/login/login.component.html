@@ -1,0 +1,82 @@
+<style>
+    .text_box
+    {
+        height: 35px;
+        padding-left: 7px;
+        width: 240px;
+        margin-bottom: 20px;
+    }
+    .contact_label
+    {
+        font-size: 15px;
+    }
+    .sign_up
+    {
+        color: #fff;
+        background-color: #1b367e;
+        padding: 10px 8px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        border: 1px solid #1b3674;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .sign_up:hover
+    {
+        color: #1b3674;
+        background-color: #fff;
+    }
+    .heading
+    {
+        font-size: 100px;
+        text-align: center;
+        position: relative;
+        text-align: center;
+        display: inline-block;
+    }
+    .heading::before, .heading::after
+    {
+        border-color: #1b367e;
+        width: 33px;
+        border-width: 16px;
+        position: absolute;
+        /*width: 20px;*/
+        content: " ";
+        display: block;
+        border: 8px solid #1b367e;
+        height: 100%;
+        top: 0;
+    }
+    .heading::before
+    {
+        left: 0;
+        border-right: none;
+    }
+    .heading::after
+    {
+        right: 0;
+        border-left: none;
+    }
+    .txtcenter
+    {
+        text-align: center;
+    }
+    .fright
+    {
+        float: right;
+    }
+</style>
+<div class="container" style="border: 1px solid #1b367e; margin-top: 50px;">
+    <div class="txtcenter" style="margin-top: 40px;">
+        <div class="heading">
+            <h1 style="padding: 0 70px;">Tech Park</h1>
+        </div>
+    </div>
+    <div class="" style="width: auto; margin: 0 auto; margin-top: 30px; max-width: fit-content; display: -webkit-box;">
+        <label class="contact_label">Username</label><br>
+        <input type="text" name="name" class="text_box"><br>
+        <label class="contact_label">Password</label><br>
+        <input type="password" name="email" class="text_box"><br>
+        <a class="sign_up fright">Sign In</a>
+    </div>
+</div>
