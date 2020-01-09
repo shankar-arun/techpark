@@ -22,7 +22,7 @@ export class LogpageComponent implements OnInit {
           $('.username').html(this.username);
         }
     }
-    public open(event, item)
+    public open(event)
     {
       this.status = !this.status;
     }

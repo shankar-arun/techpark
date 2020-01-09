@@ -11,7 +11,6 @@ export class HomepageComponent implements OnInit {
 }
 status: boolean = false;
   ngOnInit() {
-        
 
        var myIndex = 0;
         carousel();
@@ -31,7 +30,7 @@ status: boolean = false;
         
   }
   
-        public open(event, item)
+        public open(event)
         {
           this.status = !this.status;
           
