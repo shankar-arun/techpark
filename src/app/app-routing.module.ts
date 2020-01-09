@@ -8,7 +8,7 @@ import { LogpageComponent }   from './logpage/logpage.component';
 const routes: Routes = [
 { path: 'login', component: LoginComponent },
 { path: '', component: HomepageComponent },
-{ path: 'shopping', component: LogpageComponent }
+{ path: 'shopping/:username', component: LogpageComponent }
 ];
 
 @NgModule({
